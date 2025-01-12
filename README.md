@@ -11,13 +11,15 @@ Simple Queue manages job queues in Node.js and browsers, supporting both automat
 ### Node
 
 ```bash
-npm install simple-queue
+npm i @nicebuzzy/simple-queue
 ```
 
 ### Browser
 
 ```html
-<script src="https://unpkg.com/simple-queue"></script>
+<script type="module">
+  import Queue from 'https://esm.run/@nicebuzzy/simple-queue'
+</script>
 ```
 
 ---
