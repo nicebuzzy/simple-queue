@@ -1,29 +1,30 @@
 {
   "name": "@nicebuzzy/simple-queue",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple Queue.",
   "keywords": [
     "queue"
   ],
+  "author": "nicebuzzy",
   "license": "MIT",
+  "type": "module",
+  "main": "dist/queue.js",
+  "module": "dist/queue.js",
+  "browser": "dist/queue.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nicebuzzy/simple-queue.git"
   },
-  "author": "nicebuzzy",
-  "type": "module",
-  "main": "src/Queue.js",
   "scripts": {
     "test": "vitest",
     "build": "rollup --config"
   },
+  "files": [
+    "dist/*"
+  ],
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "rollup": "^4.29.1",
     "vitest": "^2.1.8"
-  },
-  "files": [
-    "src/*",
-    "dist/*"
-  ]
+  }
 }
